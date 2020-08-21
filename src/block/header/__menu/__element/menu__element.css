@@ -2,3 +2,12 @@
   padding-right: 31px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1070px) {
+  .menu__element:nth-child(n+4) {
+    order: 3;
+  }
+  .menu__element:nth-child(2) {
+    order: 2;
+  }
+}
