@@ -1,0 +1,12 @@
+.menu__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1070px) {
+	.menu__link {
+		white-space: nowrap;
+	}
+}

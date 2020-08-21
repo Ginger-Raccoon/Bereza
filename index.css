@@ -1,0 +1,42 @@
+@import url('./src/block/header/header.css');
+@import url('./src/block/main/main.css');
+@import url('./src/block/link/link.css');
+@import url('./src/block/list/list.css');
+
+
+
+@font-face {
+  src: url('./src/fonts/OpenSans-Regular.ttf') format('ttf');
+  font-family: 'OpenSans';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('./src/fonts/OpenSans-Bold.ttf') format('ttf');
+  font-family: 'OpenSans';
+  font-weight: 600;
+}
+
+.body {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  font-family: 'OpenSans', sans-serif;
+  margin: 0;
+}
+
+.page {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+
+
+

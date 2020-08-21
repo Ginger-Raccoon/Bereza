@@ -1,0 +1,6 @@
+@media screen and (max-width: 1070px) {
+	.menu__list {
+    flex-direction: column;
+	}
+}
+

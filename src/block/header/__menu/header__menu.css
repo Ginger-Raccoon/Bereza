@@ -1,0 +1,25 @@
+@import url('./__element/menu__element.css');
+@import url('./__link/menu__link.css');
+@import url('./__list/menu__list.css');
+
+.header__menu {
+  margin-left: 66px;
+}
+
+@media screen and (max-width: 1180px) {
+	.header__menu {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 1070px) {
+	.header__menu {
+    margin-left: 24px;
+	}
+}
+
+@media screen and (max-width: 344px) {
+  .header__menu {
+    margin-right: 24px; 
+  }
+}

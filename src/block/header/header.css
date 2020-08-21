@@ -1,0 +1,33 @@
+@import url('./__menu/header__menu.css');
+@import url('./__button/header__button.css');
+@import url('./__contact/header__contact.css');
+
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 22px 0;
+  
+}
+
+@media screen and (max-width: 1180px) {
+	.header {
+		max-width: 1039px;
+	}
+}
+
+
+@media screen and (max-width: 1070px) {
+	.header {
+    max-width: 100%;
+    flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 344px) {
+  .header {
+    justify-content: center;
+  }
+}

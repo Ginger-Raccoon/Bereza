@@ -1,0 +1,27 @@
+@import url('./__social-icons/contact__social-icons.css');
+@import url('./__data/contact__data.css');
+
+.header__contact {
+  display: flex;
+  margin-right: 75px;
+}
+
+
+@media screen and (max-width: 1180px) {
+	.header__contact {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 1070px) {
+	.header__contact {
+		flex-direction: column;
+		margin: 15px 25px 13px 0;
+	}
+}
+
+@media screen and (max-width: 343px) {
+  .header__contact {
+		margin-left: 24px;
+	}
+}

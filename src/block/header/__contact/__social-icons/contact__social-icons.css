@@ -1,0 +1,15 @@
+@import url('./__element/social-icons__element.css');
+@import url('./__link/social-icons__link.css');
+@import url('./__img/social-icons__img.css');
+
+.contact__social-icons {
+  align-items: center;
+  margin-left: 41px;
+  min-width: 151px;
+}
+
+@media screen and (max-width: 1070px) {
+	.contact__social-icons {
+		justify-content: center;
+	}
+}

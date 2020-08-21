@@ -1,0 +1,9 @@
+@import url('./__link/data__link.css');
+@import url('./__text/data__text.css');
+
+
+@media screen and (max-width: 1070px) {
+  .contact__data {
+    margin-top: 20px;
+  }
+}
